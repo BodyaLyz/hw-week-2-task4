@@ -3,7 +3,7 @@ function rec(start, end) {
 	let j = 1;
 	let str = '';
 	while (j <= start) {
-		str = str + '#';
+		str = str += '#';
 		j++;
 	}
 	console.log(str);
